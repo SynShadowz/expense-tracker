@@ -21,7 +21,7 @@ const connectDB = async () => {
 }
 
 const transactions = require('./routes/transactions');
-const { default: mongoose } = require('mongoose');
+const { mongoose } = require('mongoose');
 
 const app = express();
 
